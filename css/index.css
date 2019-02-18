@@ -401,7 +401,7 @@ header .logo {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 0.8%;
   }
 
   header nav a:first-child {
@@ -409,6 +409,7 @@ header .logo {
   }
 
   header nav a {
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -446,6 +447,10 @@ header .logo {
 
   .cta {
     width: 100%;
+  }
+
+  .cta .cta-text {
+    padding-bottom: 25px;
   }
 
   .main-content {
